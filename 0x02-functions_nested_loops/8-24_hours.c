@@ -5,17 +5,13 @@
  */
 void jack_bauer(void)
 {
-int hr;
-int hr1;
-int min;
-int min1;
-for (hr = 0; hr <= 2; hr++)
+for (int hr = 0; hr <= 2; hr++)
 {
-for (hr1 = 0; hr1 <= 3; hr1++)
+for (int hr1 = 0; hr1 <= 3; hr1++)
 {
-for (min = 0; min <= 5; min++)
+for (int min = 0; min <= 5; min++)
 {
-for (min1 = 0; min1 <= 9; min1++)
+for (int min1 = 0; min1 <= 9; min1++)
 {
 _putchar(hr + '0');
 _putchar(hr1 + '0');
