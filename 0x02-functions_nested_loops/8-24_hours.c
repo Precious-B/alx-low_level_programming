@@ -15,7 +15,7 @@ for (hr1 = 0; hr1 <= 3; hr1++)
 {
 for (min = 0; min <= 5; min++)
 {
-for (min1 = 0; min1 <= 9 min1++)
+for (min1 = 0; min1 <= 9; min1++)
 {
 _putchar(hr + '0');
 _putchar(hr1 + '0');
