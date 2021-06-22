@@ -11,7 +11,7 @@
 int print_last_digit(int n)
 {
 int lastDigit;
-long int lastDigit1 = n;
+long int lastDigit1;
 if (n < 0)
 {
 n = (-1) * n;
@@ -19,8 +19,9 @@ lastDigit = n % 10;
 _putchar(lastDigit + '0');
 return (lastDigit);
 }
-if (lastDigit1 >= INT_MIN)
+if (n >= INT_MIN)
 {
+lastDigit1 = n;
 lastDigit1 = (-1) * lastDigit1;
 _putchar(lastDigit1 % 10 + '0');
 }
