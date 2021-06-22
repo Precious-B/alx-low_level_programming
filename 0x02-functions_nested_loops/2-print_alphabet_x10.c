@@ -9,10 +9,10 @@ int count;
 char ch;
 for (count = 0; count <= 9; count++)
 {
-_putchar('\n');
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 _putchar(ch);
 }
+_putchar('\n');
 }
 }
