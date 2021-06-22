@@ -10,6 +10,6 @@
 int _abs(int)
 {
 int r;
-abs(r);
+_putchar(abs(r));
 return (0);
 }
