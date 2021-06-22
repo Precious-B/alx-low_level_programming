@@ -3,13 +3,19 @@
 /**
  * _abs -to compute the absolute value of a number
  *
- * @int: the number to be computed
+ * @r: the number to be computed
  *
  * Return: Always 0
  */
-int _abs(int)
+int _abs(int r)
 {
-int r;
-_putchar(abs(r));
-return (0);
+if (r < o)
+{
+r = (-1) * r;
+return (r);
+}
+else
+{
+return (r);
+}
 }
