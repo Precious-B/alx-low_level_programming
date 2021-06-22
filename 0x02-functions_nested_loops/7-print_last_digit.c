@@ -17,6 +17,11 @@ lastDigit = n % 10;
 _putchar(lastDigit + '0');
 return (lastDigit);
 }
+if (n == INT_MIN)
+{
+_putchar('8');
+return (8);
+}
 lastDigit = n % 10;
 _putchar(lastDigit + '0');
 return (lastDigit);
