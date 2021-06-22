@@ -25,7 +25,6 @@ lastDigit1 = (-1) * lastDigit1;
 lastDigit1 % 10;
 _putchar(lastDigit1 + '0');
 }
-lastDigit = n % 10;
-_putchar(lastDigit + '0');
+_putchar((lastDigit % 10) + '0');
 return (lastDigit);
 }
