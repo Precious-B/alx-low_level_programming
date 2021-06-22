@@ -47,5 +47,4 @@ _putchar(' ');
 }
 }
 }
-return (0);
 }
