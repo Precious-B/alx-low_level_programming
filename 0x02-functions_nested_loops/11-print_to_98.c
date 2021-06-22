@@ -10,9 +10,7 @@
  */
 void print_to_98(int n)
 {
-int i = n;
-
- while (i <= 98)
+while (n <= 98)
 {
 _putchar(i + '0');
 if (i != 98)
@@ -22,8 +20,7 @@ _putchar(' ');
 }
 i++;
 }
-
- while (i >= 98)
+while (i >= 98)
 {
 _putchar(i + '0');
 if (i != 98)
