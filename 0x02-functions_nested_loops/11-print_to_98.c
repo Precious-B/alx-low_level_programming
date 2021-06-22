@@ -10,22 +10,9 @@
  */
 void print_to_98(int n)
 {
-int i;
-if (n <= 98)
-{
-for (i = n; i <= 98; i++)
-{
-_putchar(i + '0');
-if (i != 98)
-{
-_putchar(',');
-_putchar(' ');
-}
-}
-}
-else if (n > 98)
-{
-for (i = n; i >= 98; i--)
+int i = n;
+
+ while (i <= 98)
 {
 _putchar(i + '0');
 if (i != 98)
@@ -33,6 +20,17 @@ if (i != 98)
 _putchar(',');
 _putchar(' ');
 }
+i++;
 }
+
+ while (i >= 98)
+{
+_putchar(i + '0');
+if (i != 98)
+{
+_putchar(',');
+_putchar(' ');
+}
+i--;
 }
 }
