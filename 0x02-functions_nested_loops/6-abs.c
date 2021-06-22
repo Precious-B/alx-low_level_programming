@@ -9,6 +9,7 @@
  */
 int _abs(int)
 {
-abs(int);
+int r;
+abs(r);
 return (0);
 }
