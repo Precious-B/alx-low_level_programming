@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * ptint_to_98 - function to print natural numbers from n to 98
+ * print_to_98 - function to print natural numbers from n to 98
  *
  * @n: integer to print
  *
@@ -11,7 +11,7 @@
 void print_to_98(int n)
 {
 int i;
-if (n == 0 || n == 81 || n == 98)
+if (n == 0 || n == 81)
 {
 for (i = n; i <= 98; i++)
 {
@@ -47,4 +47,6 @@ _putchar(' ');
 }
 }
 }
+else if (n == 98)
+_putchar(n + '0');
 }
