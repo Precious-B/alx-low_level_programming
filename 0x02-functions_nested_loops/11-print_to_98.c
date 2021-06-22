@@ -11,7 +11,7 @@
 void print_to_98(int n)
 {
 int i;
-if (n == 0 || n == 81)
+if (n <= 98)
 {
 for (i = n; i <= 98; i++)
 {
@@ -23,7 +23,7 @@ _putchar(' ');
 }
 }
 }
-else if (n == 111)
+else if (n > 98)
 {
 for (i = n; i >= 98; i--)
 {
@@ -35,18 +35,4 @@ _putchar(' ');
 }
 }
 }
-else if (n == (-10))
-{
-for (i = n; i <= 98; i++)
-{
-_putchar(i + '0');
-if (i != 98)
-{
-_putchar(',');
-_putchar(' ');
-}
-}
-}
-else if (n == 98)
-_putchar(n + '0');
 }
