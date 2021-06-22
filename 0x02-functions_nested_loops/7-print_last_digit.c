@@ -19,9 +19,10 @@ lastDigit = n % 10;
 _putchar(lastDigit + '0');
 return (lastDigit);
 }
-if (lastDigit2 >= INT_MIN)
+if (lastDigit1 >= INT_MIN)
 {
-lastDigit2 % 10;
+lastDigit1 = (-1) * lastDigit1;
+lastDigit1 % 10;
 _putchar(lastDigit1 + '0');
 }
 lastDigit = n % 10;
