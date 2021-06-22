@@ -22,6 +22,7 @@ _putchar(hr1 + '0');
 _putchar(':');
 _putchar(min + '0');
 _putchar(min1 + '0');
+_putchar(' ');
 }
 }
 }
