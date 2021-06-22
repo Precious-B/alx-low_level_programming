@@ -18,7 +18,7 @@ lastDigit = n % 10;
 _putchar(lastDigit + '0');
 return (lastDigit);
 }
-if (n == INT_MIN)
+ if (n == (-2147483648))
 {
 _putchar('8');
 return (8);
