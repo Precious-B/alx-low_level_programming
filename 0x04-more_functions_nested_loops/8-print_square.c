@@ -20,7 +20,6 @@ _putchar(35);
 j++;
 }
 _putchar('\n');
-_putchar('\n');
 i++;
 }
 if (size == 0)
