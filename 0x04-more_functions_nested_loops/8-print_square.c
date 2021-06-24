@@ -22,4 +22,8 @@ j++;
 _putchar('\n');
 i++;
 }
+if (size == 0)
+{
+_putchar('\n');
+}
 }
