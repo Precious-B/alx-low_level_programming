@@ -9,8 +9,7 @@
  */
 int _isupper(int c)
 {
-char ch = c;
-if (ch >= 65 || ch <= 90)
+if (c >= 65 || c <= 90)
 {
 return (1);
 }
