@@ -2,6 +2,7 @@
 
 /**
  * main - causes an infinite loop
+ * @\\o/\n: to be printed when infinite loop is avoided
  * Return: 0
  */
 
@@ -18,7 +19,6 @@ printf("Infinite loop incoming :(\n");
  * putchar(i);
  * }
  */
-printf("Infinite loop avoided! \\o/\n");
-
+printf("Infinite loop avoided! \\o/\n);
 return (0);
 }
