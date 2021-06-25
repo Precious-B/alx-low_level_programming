@@ -23,7 +23,7 @@ printf("Remaining days: %d\n", 366 - day);
 }
 else
 {
-  if ((month < 1 && day > 31) || (month > 12day >= 31))
+if ((month < 1 && day > 31) || (month > 12))
 {
 printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
 }
@@ -33,5 +33,4 @@ printf("Day of the year: %d\n", day);
 printf("Remaining days: %d\n", 365 - day);
 }
 }
-return (void);
 }
