@@ -22,7 +22,7 @@ j++;
 _putchar('\n');
 i++;
 }
-if (size == 0)
+if (size == 0 || size == -size)
 {
 _putchar('\n');
 }
