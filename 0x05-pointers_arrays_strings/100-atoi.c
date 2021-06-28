@@ -4,6 +4,8 @@
  * _atoi - function that convert a string to an integer
  *
  * @s: pointer to a string
+ *
+ * Return: to return value
  */
 int _atoi(char *s)
 {
@@ -12,13 +14,13 @@ int i = 0;
 int sign = 1;
 if (s[i] == '-')
 {
-sign = -1;
+sign = (-1);
 i++;
 }
 for (i = 0; s[i] != '\0'; i++)
 {
 res = res * 10 + s[i] - '\0';
-if (sign = -1)
+if (sign = (-1))
 {
 return (sign * res);
 }
