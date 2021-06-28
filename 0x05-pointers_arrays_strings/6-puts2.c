@@ -18,7 +18,7 @@ length = i;
 for
 (j = 0;
 j < length;
-j+=2)
+j += 2)
 {
 _putchar(str[j]);
 }
