@@ -14,7 +14,8 @@ s[i] != '\0';
 i++);
 length = i;
 for
-(j = 0; j < length / 2;
+(j = 0;
+j < length / 2;
 j++)
 {
 char rev_str = s[j];
