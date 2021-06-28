@@ -14,11 +14,14 @@ for
 str[i] != '\0';
 i++);
 length = i;
-if ((length % 2) != 0)
+if ((length % 2) == 1)
 {
-length--;
+n = (length - 1) / 2;
 }
+else
+{
 n = length / 2;
+}
 for
 (j = n;
 j < length;
