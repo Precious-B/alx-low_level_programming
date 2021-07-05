@@ -19,10 +19,5 @@ for (i = 0; ch[i] != '\0'; i++)
 if (ch[i] == c)
 return (ch + i);
 }
-if (ch[i] != c)
-{
 return (0);
-}
-else
-return (ch);
 }
