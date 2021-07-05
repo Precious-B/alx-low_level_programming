@@ -5,7 +5,8 @@
  *
  * @s: a pointer to the string to be searched for
  *
- * @accept: a string where the first occurrence of the string @s will be searched
+ * @accept: a pointer to a string where the first occurrence
+ * of the string @s will be searched
  *
  * Return: a pointer to the byte in @s that matches one of the bytes in @accept
  * to return NULL if no such byte is found
