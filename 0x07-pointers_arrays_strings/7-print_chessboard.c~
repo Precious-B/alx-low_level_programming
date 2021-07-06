@@ -1,0 +1,11 @@
+#include "holberton.h"
+
+/**
+ * print_chessboard - a function that prints the chessboard
+ *
+ * @a: a pointer to an array
+ */
+void print_chessboard(char (*a)[8])
+{
+
+}
