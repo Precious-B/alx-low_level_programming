@@ -20,7 +20,8 @@ return (check_n(mid + 1, n));
 }
 
 /**
- * _sqrt_recursion - a function that returns the natural square root of a number
+ * _sqrt_recursion - a function that returns the natural
+ * square root of a number
  *
  * @n: an integer value to be passed to the function
  *
