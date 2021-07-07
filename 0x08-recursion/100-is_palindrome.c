@@ -39,7 +39,8 @@ return (1 + s_len(s + 1));
 }
 
 /**
- * is_palindrome - a function that returns 1 if a string is a palindrome and 0 if not
+ * is_palindrome - a function that returns 1 if a string
+ * is a palindrome and 0 if not
  *
  * @s: a pointer to the string to be checked
  *
