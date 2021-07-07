@@ -24,17 +24,18 @@ return (1);
 }
 
 /**
- * s_len - a function to check the length of a string
+ * s_len - function to check length of string
  *
- * @s: the string to be checked
+ * @s: string to be checked
  *
- * Return: to return the length of the string
+ * Return: to return the length of a string
  */
 int s_len(char *s)
 {
-int i;
-for (i = 0; s[i] != '\0'; i++);
-return (i);
+if (*s == '\0')
+return (0);
+else
+return (1 + s_len(s + 1));
 }
 
 /**
@@ -48,7 +49,7 @@ return (i);
 int is_palindrome(char *s)
 {
 int n = s_len(s);
-if (n == 0)
+if (s == 0)
 return (1);
 return (is_pal_rec(s, 0, n - 1));
 }
