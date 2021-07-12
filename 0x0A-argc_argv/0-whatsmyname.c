@@ -4,6 +4,10 @@
 /**
  * main - a program that prints its name
  *
+ * @argc: argument count
+ *
+ * @argv: returns a list of arguments
+ *
  * printf - to print the name of the program
  *
  * Return: always 0
