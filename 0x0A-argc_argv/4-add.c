@@ -50,6 +50,7 @@ else
 printf("Error\n");
 return (1);
 }
+count++;
 }
 printf("%d\n", sum);
 return (0);
