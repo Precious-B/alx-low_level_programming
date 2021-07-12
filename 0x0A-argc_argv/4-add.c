@@ -36,13 +36,12 @@ return (0);
  */
 int main(int argc, char *argv[])
 {
-int count, sum;
-count = 1;
-sum = 0;
+int count = 1, sum = 0;
 while (count < argc)
 {
 if (check_str(argv[count]))
 {
+if (*argv[count] > '0')
 sum += atoi(argv[count]);
 }
 else
