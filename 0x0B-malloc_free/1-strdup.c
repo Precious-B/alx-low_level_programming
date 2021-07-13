@@ -21,7 +21,7 @@ str[i] != '\0';
 i++);
 length = i;
 dest = malloc(length + 1);
-if (dest == NULL)
+if (str == NULL)
 {
 return (NULL);
 }
