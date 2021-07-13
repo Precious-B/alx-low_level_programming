@@ -16,10 +16,6 @@ char *str_concat(char *s1, char *s2)
 char *a;
 int i, length, length2, total_len;
 int j = 0;
-if (s1 == NULL && s2 == NULL)
-{
-return (NULL);
-}
 for
 (i = 0;
 s1[i] != '\0';
@@ -32,6 +28,10 @@ i++);
 length2 = i;
 total_len = length + length2 + 1;
 a = malloc(total_len);
+if (a == NULL)
+{
+return (NULL);
+}
 while (*s1 != '\0')
 {
 a[j] = *s1;
