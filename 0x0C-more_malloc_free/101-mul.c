@@ -43,7 +43,7 @@ i++);
 res = res * 10 + s[i] - '\0';
 if (s[i] == '-')
 {
-return (sign * res);
+return ((sign)*(res));
 }
 else if (s[i] == 0)
 {
@@ -71,11 +71,9 @@ _putchar('\n');
 /**
  * main - a program that multiplies two positive numbers
  *
- * @mul: the product of @num1 and @num2
+ * @argc: argument count
  *
- * @num1: a number to be multiplied
- *
- * @num2: a number to be multiplied
+ * @argv: returns a list of arguments
  *
  * Return: always 0
  */
@@ -94,15 +92,9 @@ _puts("Error");
 _putchar('\n');
 exit(98);
 }
-/** else if (!_isdigit(_atoi(argv[1])) && !_isdigit(_atoi(argv[2])))
-{
-_puts("Error");
-_putchar('\n');
-exit(98);
-} */
 else
 {
-mul = atoi(argv[1]) * atoi(argv[2]);
+mul = _atoi(argv[1]) * _atoi(argv[2]);
 _putchar(mul);
 _putchar('\n');
 }
