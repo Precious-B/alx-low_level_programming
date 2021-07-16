@@ -52,7 +52,7 @@ return (NULL);
 }
 for (i = 0; i < size; i++)
 {
-a[i] = nmemb;
+a[i] = '\0';
 }
 return (a);
 }

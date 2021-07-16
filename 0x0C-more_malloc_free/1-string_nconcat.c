@@ -35,15 +35,15 @@ if (n >= length2)
 n = length2;
 }
 total_len = length + n + 1;
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
 a = malloc(total_len);
 if (a == NULL)
 {
 return (NULL);
 }
-if (s1 == NULL)
-s1 = "";
-if (s2 == NULL)
-s2 = "";
 for (j = 0; j < length; j++)
 {
 a[j] = s1[j];
