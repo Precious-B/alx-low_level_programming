@@ -10,5 +10,14 @@
  */
 int sum_listint(listint_t *head)
 {
-
+  struct listint_t *new, *old, *tmp;
+  unsigned int i = 1;
+  if (head == NULL)
+    return (NULL);
+  new = malloc(sizeof(listint_t));
+  if (new == NULL)
+    return (NULL);
+  new->n = n;
+  new->next = NULL;
+  if (
 }

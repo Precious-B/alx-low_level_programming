@@ -12,5 +12,18 @@
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-
+struct listint_t *find_n;
+unsigned int next_node = 0;
+if (head != NULL)
+{
+find_n = head;
+while (find_n != NULL)
+{
+if (next_node == index)
+return (find_n);
+find_n = find_n->next;
+next_node++;
+}
+}
+return (NULL);
 }
