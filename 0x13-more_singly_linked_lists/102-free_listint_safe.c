@@ -9,5 +9,12 @@
  */
 size_t free_listint_safe(listint_t **h)
 {
-
+struct listint_t *current;
+while (*h != NULL)
+{
+current = *h;
+*h = (*h)->next;
+free(current);
+}
+return (0);
 }
