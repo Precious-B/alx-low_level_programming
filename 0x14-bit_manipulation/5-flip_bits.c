@@ -4,9 +4,9 @@
  * flip_bits - a function that returns the number of bits
  * you would need to flip to get from one number to another
  *
- * @n: the number to be manipulated
+ * @n: the number to be flipped
  *
- * @m: a number to control the number of bits to be flipped
+ * @m: the number to flip @n to
  *
  * Return: returns the number of bits
  */
