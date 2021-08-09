@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+/**
+ * main - a program that copies the content of a file to another file
+ *
+ * Return: always 0
+ */
