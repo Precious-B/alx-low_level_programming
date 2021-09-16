@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * get_dnodeint_at_index - a function that returns the nth node of a dlistint_t linked list
+ * get_dnodeint_at_index - a function that returns the
+ * nth node of a dlistint_t linked list
  *
  * @head: head of the linked list
  *
@@ -12,4 +13,16 @@
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
+dlistint_t *current;
+if (head == NULL)
+return (0);
+current = head;
+while (index != 0)
+{
+current = current->next;
+index--;
+if (current == NULL)
+return (0);
+}
+return (current);
 }
